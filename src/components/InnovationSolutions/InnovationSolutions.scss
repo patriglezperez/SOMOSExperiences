@@ -1,0 +1,254 @@
+.InnovationSolutions--container {
+  display: flex;
+  flex-direction: row;
+
+  scroll-snap-align: center;
+  section {
+    width: 50%;
+    height: 100vh;
+
+    @media (max-width: 428px) {
+      width: none;
+      height: auto;
+    }
+  }
+
+  @media (max-width: 428px) {
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    position: relative;
+    right: 130px;
+  }
+}
+
+.InnovationSolutions--opacity {
+  visibility: hidden;
+  text-align: left;
+  position: relative;
+  width: 455px;
+  left: 799px;
+  top: 175px;
+  font-size: 34px;
+  font-weight: lighter;
+  opacity: 0.1;
+
+  @media (max-width: 428px) {
+    font-size: 29px;
+    text-align: left;
+    position: relative;
+    width: 179px;
+    left: 400px;
+    top: 87px;
+    font-size: 27px;
+  }
+}
+
+.InnovationSolutions--mainSentence {
+  text-align: left;
+  position: relative;
+  width: 455px;
+  left: 799px;
+  top: 175px;
+  font-size: 34px;
+  font-weight: lighter;
+  transition: 1s linear;
+  opacity: 1;
+
+  @media (max-width: 428px) {
+    font-size: 29px;
+    text-align: left;
+    position: relative;
+    width: 296px;
+    left: 186px;
+    top: 80px;
+    font-size: 27px;
+  }
+}
+
+.InnovationSolutions--mainSentence--right {
+  text-align: left;
+  position: relative;
+  width: 455px;
+  left: 799px;
+  top: 175px;
+  font-size: 34px;
+  font-weight: lighter;
+  transition: 1s linear;
+  opacity: 1;
+
+  @media (max-width: 428px) {
+    font-size: 29px;
+    text-align: left;
+    position: relative;
+    width: 179px;
+    left: 400px;
+    top: 87px;
+    font-size: 27px;
+  }
+}
+
+//Color Effects
+.blueTemporal {
+  text-align: left;
+  color: #00c7cd;
+}
+
+.whiteTemporal {
+  color: #fff;
+}
+
+.up {
+  -webkit-animation-name: slideInUp;
+  animation-name: slideInUp;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes slideInUp {
+  0% {
+    -webkit-transform: translateY(20%);
+    transform: translateY(20%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes slideInUp {
+  0% {
+    -webkit-transform: translateY(20%);
+    transform: translateY(20%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+//Images
+.Innovations--container--phone {
+  width: 100%;
+  display: flex;
+
+  height: 100vh;
+
+  position: relative;
+  left: -504px;
+
+  @media (max-width: 428px) {
+    position: relative;
+    left: -10px;
+    top: 90px;
+    width: 324px;
+  }
+}
+
+.innovation--phone--figure {
+  position: relative;
+  height: 800px;
+  width: 529px;
+  overflow: hidden;
+
+  @media (max-width: 428px) {
+    position: relative;
+    height: 724px;
+    width: 428px;
+    overflow: hidden;
+  }
+}
+
+.Innovations--phone--image {
+  width: 731px;
+  position: relative;
+  top: 180px;
+  right: 400px;
+  opacity: 0;
+  @media (max-width: 428px) {
+    width: 424px;
+    opacity: 1;
+    position: relative;
+    top: 213px;
+    right: 431px;
+    transition: 0.5s linear;
+  }
+}
+
+.Innovations--phone--image--effect {
+  width: 731px;
+  opacity: 1;
+  position: relative;
+  top: 180px;
+  right: 272px;
+  transition: 0.5s linear;
+
+  @media (max-width: 428px) {
+    width: 424px;
+    opacity: 1;
+    position: relative;
+    top: 213px;
+    right: 165px;
+    transition: 0.5s linear;
+  }
+}
+
+.rotate {
+  width: 580px;
+  top: 341px;
+  right: 135px;
+  transform: rotate(-90deg);
+  transition: 1s ease-in-out;
+}
+
+.resize {
+  position: relative;
+  height: 621px;
+}
+
+.hiddenON {
+  opacity: 0;
+}
+
+.hiddenOFF {
+  opacity: 1;
+}
+
+.Innovations--bank--image {
+  width: 20px;
+  position: relative;
+  top: -120px;
+  right: 13px;
+  transform: rotate(90deg);
+  opacity: 0;
+
+  @media (max-width: 428px) {
+    width: 20px;
+    position: relative;
+    top: 213px;
+    right: 165px;
+    transition: 1s ease-in-out;
+  }
+}
+
+.Innovations--bank--image--effect {
+  width: 312px;
+  top: -120px;
+  position: relative;
+  width: 328px;
+  opacity: 1;
+  position: relative;
+  transform: rotate(0deg);
+  transition: 1s ease-in-out;
+
+  @media (max-width: 428px) {
+    width: 312px;
+    top: -120px;
+    left: 10px;
+    width: 247px;
+    opacity: 1;
+    position: relative;
+  }
+}

@@ -1,0 +1,26 @@
+.Header--container {
+  display: flex;
+  justify-content: center;
+}
+
+.Header--container--navigator {
+  display: flex;
+  width: 66%;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 0px;
+  position: fixed;
+  top: 113px;
+  z-index: 99;
+
+  @media (max-width: 428px) {
+    width: 80%;
+    top: 40px;
+    margin-bottom: 60px;
+
+    img {
+      margin: 20px;
+    }
+  }
+}

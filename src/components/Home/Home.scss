@@ -1,0 +1,25 @@
+.Home--container {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  margin: 0 auto;
+  background-image: url("../../assets/img/backgroundImageHome.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  scroll-snap-align: center;
+}
+
+.Home--sentence {
+  font-size: 20px;
+  line-height: 21px;
+  text-align: center;
+  position: relative;
+  top: 630px;
+
+  @media (max-width: 428px) {
+    font-size: 14px;
+    margin: 0 40px;
+    top: 541px;
+  }
+}

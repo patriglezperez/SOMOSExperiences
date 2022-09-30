@@ -1,0 +1,22 @@
+.BottomArrow--container {
+  display: flex;
+  justify-content: center;
+}
+.BottomArrow {
+  font-size: 20px;
+  line-height: 21px;
+  align-self: center;
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  right: 0px;
+  left: 734px;
+  top: 700px;
+  z-index: 3;
+  display: flex;
+  width: 4%;
+
+  @media (max-width: 428px) {
+    display: none;
+  }
+}
